@@ -1,4 +1,4 @@
-package com.shixi.leetcode.repeat;
+package algorithms.repeat;
 
 /**
  * Created by Fei Hu on 8/15/17.

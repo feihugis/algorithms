@@ -1,4 +1,4 @@
-package com.shixi.leetcode.repeat;
+package algorithms.repeat;
 
 import java.util.ArrayList;
 import java.util.List;
