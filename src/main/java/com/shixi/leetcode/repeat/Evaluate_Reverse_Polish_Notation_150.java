@@ -1,4 +1,4 @@
-package com.shixi.leetcode;
+package com.shixi.leetcode.repeat;
 
 import java.util.Stack;
 

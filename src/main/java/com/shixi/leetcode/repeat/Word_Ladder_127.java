@@ -1,6 +1,5 @@
-package com.shixi.leetcode;
+package com.shixi.leetcode.repeat;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;

@@ -1,6 +1,4 @@
-package com.shixi.leetcode;
-
-import java.util.Arrays;
+package com.shixi.leetcode.repeat;
 
 /**
  * Created by Fei Hu on 8/22/17.

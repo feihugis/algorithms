@@ -1,7 +1,6 @@
-package com.shixi.leetcode;
+package com.shixi.leetcode.repeat;
 
 import java.util.Arrays;
-import java.util.Stack;
 
 /**
  * Created by Fei Hu on 9/12/17.
