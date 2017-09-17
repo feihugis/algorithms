@@ -37,6 +37,9 @@ public class Game_of_Life_289 {
     } else {
       if (live == 3) board[r][c] = 2;
     }
+
+    int[][] b = new int[2][3];
+
   }
 
 }
