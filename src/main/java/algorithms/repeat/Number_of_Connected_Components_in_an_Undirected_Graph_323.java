@@ -28,4 +28,8 @@ public class Number_of_Connected_Components_in_an_Undirected_Graph_323 {
     }
     return child;
   }
+
+  public static void main(String[] args) {
+
+  }
 }
