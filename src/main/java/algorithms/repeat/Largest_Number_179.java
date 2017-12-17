@@ -1,5 +1,8 @@
 package algorithms.repeat;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * Created by Fei Hu on 8/22/17.
  */
@@ -80,6 +83,31 @@ public class Largest_Number_179 {
       }
       return false;
     }
+  }
+
+  public String largestNumber2(int[] nums) {
+    if (nums == null || nums.length == 0) return "";
+    String[] input = new String[nums.length];
+    for (int i = 0; i < nums.length; i++) {
+      input[i] = String.valueOf(nums[i]);
+    }
+
+    Arrays.sort(input, new Comparator<String>() {
+      @Override
+      public int compare(String n1, String n2) {
+        String s1 = n1 + n2;
+        String s2 = n2 + n1;
+        return -1 * s1.compareTo(s2);
+      }
+    });
+
+    if (input[0].equals("0")) return "0";
+
+    StringBuilder stringBuilder = new StringBuilder();
+    for (String s : input) {
+      stringBuilder.append(s);
+    }
+    return stringBuilder.toString();
   }
 
   public static void main(String[] args) {

@@ -41,10 +41,11 @@ public class Meeting_Rooms_II_253 {
 
   public static void main(String[] args) {
     Meeting_Rooms_II_253 solution = new Meeting_Rooms_II_253();
-    Interval[] input = new Interval[3];
-    input[0] = new Interval(5, 10);
-    input[1] = new Interval(0, 30);
-    input[2] = new Interval(15, 20);
+    Interval[] input = new Interval[4];
+    input[0] = new Interval(3, 5);
+    input[1] = new Interval(5, 6);
+    input[2] = new Interval(9, 14);
+    input[3] = new Interval(12, 19);
     System.out.println(solution.minMeetingRooms(input));
   }
 

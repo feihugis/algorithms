@@ -46,7 +46,6 @@ public class Permutations_II_47 {
     int[] input = new int[] {1,1,1,2};
     Permutations_II_47 solution = new Permutations_II_47();
     System.out.println(solution.permuteUnique(input));
-
   }
 
 }

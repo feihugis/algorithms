@@ -2,6 +2,9 @@ package algorithms.repeat;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -51,7 +54,14 @@ public class Trapping_Rain_Water_42 {
     //[[0,0],[94911151,94911150],[94911152,94911151]]
 
     System.out.println((0 - 94911151)* 1.0 / (0- 94911150) == (0 - 94911152) * 1.0 / (0 - 94911151));
-    System.out.println(Arrays.asList(1,2,3).getClass());
+    System.out.println(Arrays.asList(1,2,3));
+    List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3));
+    System.out.println(list.add(1));
+    HashMap<Integer, Integer> map = new HashMap<>();
+    list.add(0, 11);
+    System.out.println(list);
+
+
   }
 
 }
